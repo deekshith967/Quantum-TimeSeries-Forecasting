@@ -102,13 +102,16 @@ Internal “quantum memory” using amplitude update
 Performs regression prediction
 
  Results Summary (SP500 Forecasting)
- Model Comparison 
-Model	                                 MSE ↓	MAE ↓	MAPE ↓	RMSE ↓	R² ↑
-Linear Regression	                    0.021	0.116	7.8%	0.145	0.88
-LSTM	                                0.015	0.093	6.1%	0.122	0.92
-GRU	                                    0.014	0.090	5.9%	0.118	0.93
-Quantum Autoencoder + Classifier	    0.009	0.071	4.2%	0.095	0.96
-Quantum RNN	                            0.011	0.082	4.9%	0.105	0.95
+
+
+| Model                          | MSE ↓  | MAE ↓  | MAPE ↓ | RMSE ↓ | R² ↑ |
+|--------------------------------|--------|--------|--------|--------|------|
+| Linear Regression              | 0.021  | 0.116  | 7.8%   | 0.145  | 0.88 |
+| LSTM                           | 0.015  | 0.093  | 6.1%   | 0.122  | 0.92 |
+| GRU                            | 0.014  | 0.090  | 5.9%   | 0.118  | 0.93 |
+| **Quantum Autoencoder + Classifier** | **0.009** | **0.071** | **4.2%** | **0.095** | **0.96** |
+| Quantum RNN                    | 0.011  | 0.082  | 4.9%   | 0.105  | 0.95 |
+
 
  Financial performance
 (Example)
@@ -154,5 +157,4 @@ Exploratory_Project_Report.pdf
  Author
 N.Sai Deekshith
 IIT (BHU) Quantum Computing Research Intern
-
 GitHub: https://github.com/deekshith967
